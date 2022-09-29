@@ -1,9 +1,10 @@
-body {
-	background-color: #000000;
+@font-face {
+	font-family: Cairo;
+	src: url(font/cairo/cairo.ttf);
 }
-
 h1,
 h2 {
+	font-family: Cairo;
 	color: #ffffff;
 	text-align: center;
 }
