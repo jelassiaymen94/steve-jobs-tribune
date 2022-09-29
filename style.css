@@ -51,7 +51,7 @@ h1 {
 #third {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: flex-end;
 }
 
@@ -61,6 +61,7 @@ h1 {
 }
 
 #steve-bio {
+	color: #ffffff;
 	order: 2;
-	flex-grow: 1;
+	flex-grow: 3;
 }
